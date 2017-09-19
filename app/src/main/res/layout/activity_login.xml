@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99EEFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_margin="10dp"
+        android:textColor="#00CCDD"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/textFieldEmailLogin_c"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textWebEmailAddress"
+        android:background="#FFFFFF"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/textFieldPasswordLogin_c"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textWebPassword"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:maxLines="1"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textFieldPassword_c"
+        android:background="#99EEFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/login_al_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+        <Button
+            android:id="@+id/back_al_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

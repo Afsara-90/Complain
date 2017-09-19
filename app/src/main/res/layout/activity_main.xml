@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99EEFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dowry Complain"
+        android:layout_margin="10dp"
+        android:textColor="#00CCDD"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+
+
+    <Button android:id="@+id/complainButton"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="Complain"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#00CCDD"/>
+
+    <Button android:id="@+id/authorButton"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="Author"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#00CCDD"/>
+    <Button android:id="@+id/lawsButton"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="Laws"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#00CCDD"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/Laws"
+        android:spinnerMode="dropdown"
+        ></Spinner>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99EEFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPLAIN"
+        android:layout_margin="10dp"
+        android:textColor="#00CCDD"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/name_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textSize="25dp"
+            android:text="Name : "/>
+        <EditText
+            android:id="@+id/textFieldName_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:inputType="text"
+            android:layout_toRightOf="@id/name_c"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/phone_c"
+            android:layout_below="@id/name_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:text="Phone : "/>
+        <EditText
+            android:id="@+id/textFieldPhone_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number"
+            android:inputType="text"
+            android:layout_toRightOf="@id/phone_c"
+            android:layout_below="@+id/textFieldName_c"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/nId_c"
+            android:layout_below="@id/phone_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:text="National Id : "/>
+        <EditText
+            android:id="@+id/textField_nId_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter national id"
+            android:inputType="text"
+            android:layout_toRightOf="@id/nId_c"
+            android:layout_below="@+id/textFieldPhone_c"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/district_c"
+            android:layout_below="@id/nId_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:text="District : "/>
+        <EditText
+            android:id="@+id/textFieldDistrict_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter district"
+            android:inputType="text"
+            android:layout_toRightOf="@id/district_c"
+            android:layout_below="@+id/textField_nId_c"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/postCode_c"
+            android:layout_below="@id/district_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:text="Post Code : "/>
+        <EditText
+            android:id="@+id/textFieldPostCode_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter psot code"
+            android:inputType="text"
+            android:layout_toRightOf="@id/postCode_c"
+            android:layout_below="@+id/textFieldDistrict_c"
+            android:maxLines="1"
+            />
+        <TextView
+            android:id="@+id/complain_c"
+            android:layout_below="@+id/textFieldPostCode_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complain Here"
+            android:layout_margin="10dp"
+            android:textColor="#666666"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            />
+
+        <EditText
+            android:id="@+id/textFieldComplain_c"
+            android:layout_below="@+id/complain_c"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:hint="Write your complain here"
+            android:background="#FFFFFF"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textFieldComplain_c"
+            android:background="#99EEFF"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        <Button
+            android:id="@+id/submit_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+        <Button
+            android:id="@+id/back_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

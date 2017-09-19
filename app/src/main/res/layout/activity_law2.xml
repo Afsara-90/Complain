@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_law02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99EEFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dowry.com.dowrycompain.Law02Activity">
+
+    <TextView
+        android:text="If any person, after the commencement of this Act, demands, directly or indirectly, from the parents or guardian of a bride or bridegroom, as the case may be, any dowry, he shall be punishable with imprisonment which may extend to 3[ five years and shall not be less than one year, or with fine, or with both]."
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llaw2"
+        android:layout_alignLeft="@+id/llaw2"
+        android:layout_alignStart="@+id/llaw2"
+        android:layout_marginTop="63dp"
+        android:id="@+id/descrip2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/llaw2"
+        android:text="Penalty for demanding dowry"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

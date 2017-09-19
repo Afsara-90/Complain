@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99EEFF"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home page"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#00CCDD"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/complain1_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Complain 1"
+        android:layout_margin="20dp"
+        android:textColor="#FF00"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/complain2_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Complain 2"
+        android:layout_margin="20dp"
+        android:textColor="#FF00"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/complain3_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Complain 3"
+        android:layout_margin="20dp"
+        android:textColor="#FF00"
+        android:textSize="30dp" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textFieldPassword_c"
+        android:background="#99EEFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/logout_ap_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+        <Button
+            android:id="@+id/back_ap_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

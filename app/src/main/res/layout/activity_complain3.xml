@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99EEFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complain 2"
+        android:layout_margin="10dp"
+        android:textColor="#00CCDD"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#666666"
+        android:text="Name : Sufia Khatun"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#666666"
+        android:text="Phone no : 01745638921" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#666666"
+        android:text="National ID: 43580755674523548" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#666666"
+        android:text="Complain : ......" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#666666"
+        android:text="Complain Type" />
+    <RadioGroup
+        android:id="@+id/complainType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/savedType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Saved"
+            android:onClick="rbclick2"/>
+        <RadioButton
+            android:id="@+id/newType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="New"
+            android:onClick="rbclick2"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#666666"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:hint="Write down message here" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textFieldPassword_c"
+        android:background="#99EEFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/send_c2_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+        <Button
+            android:id="@+id/back_c2_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:background="#00FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
